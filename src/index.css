@@ -1,0 +1,37 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #E1E0CC;
+  --color-primary-foreground: #080807;
+  --color-background: #080807;
+  --color-foreground: #E1E0CC;
+  --color-muted: #161614;
+  --color-muted-foreground: #A3A293;
+  --color-border: rgba(225, 224, 204, 0.14);
+  --font-sans: "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-serif: "Instrument Serif", Georgia, serif;
+  --font-mono: "JetBrains Mono", monospace;
+}
+
+@layer base {
+  * {
+    border-color: var(--color-border);
+  }
+
+  html {
+    scroll-behavior: smooth;
+    background-color: #080807;
+    color: #E1E0CC;
+    font-family: var(--font-sans);
+  }
+
+  body {
+    background-color: #080807;
+    color: #E1E0CC;
+    overflow-x: hidden;
+  }
+}
+
+.noise-overlay {
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)' opacity='0.35'/%3E%3C/svg%3E");
+}
