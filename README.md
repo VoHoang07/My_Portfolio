@@ -6,7 +6,7 @@
 
 ## Official Links
 
-- **Live Portfolio:** [my-portfolio-gamma-lovat-4d5dw7c0e5.vercel.app](https://my-portfolio-gamma-lovat-4d5dw7c0e5.vercel.app)
+- **Live Portfolio:** [vohoang.vercel.app](https://vohoang.vercel.app)
 - **GitHub Profile:** [github.com/VoHoang07](https://github.com/VoHoang07)
 - **LinkedIn:** [linkedin.com/in/vohoang07](https://www.linkedin.com/in/vohoang07)
 - **Email:** [vohoang1327@gmail.com](mailto:vohoang1327@gmail.com)

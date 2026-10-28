@@ -49,7 +49,7 @@ export const portfolioProfile = {
     "Vo Vu Minh Hoang — iOS & Full-Stack Software Developer crafting native Apple experiences (Swift 6, SwiftUI, ARKit, CallKit), cross-platform mobile apps (React Native, Expo, TypeScript), and automated AI media pipelines.",
   avatarUrl: "https://avatars.githubusercontent.com/u/258150144?v=4",
   email: "vohoang1327@gmail.com",
-  portfolioUrl: "https://my-portfolio-gamma-lovat-4d5dw7c0e5.vercel.app",
+  portfolioUrl: "https://vohoang.vercel.app",
   github: "https://github.com/VoHoang07",
   linkedin: "https://www.linkedin.com/in/vohoang07",
   location: "Vietnam",
