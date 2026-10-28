@@ -212,6 +212,18 @@ const PrismaHero = ({
                 >
                   GitHub ↗
                 </motion.a>
+
+                <motion.a
+                  href={portfolioProfile.linkedin}
+                  target="_blank"
+                  rel="noreferrer"
+                  initial={{ y: 20, opacity: 0 }}
+                  animate={{ y: 0, opacity: 1 }}
+                  transition={{ duration: 0.8, delay: 0.82, ease: [0.16, 1, 0.3, 1] }}
+                  className="inline-flex h-11 items-center rounded-full border border-[#E1E0CC]/35 bg-black/65 px-5 text-xs font-medium text-[#E1E0CC] backdrop-blur-md transition-all hover:border-[#E1E0CC] hover:bg-[#E1E0CC]/15 sm:h-12 sm:text-sm"
+                >
+                  LinkedIn ↗
+                </motion.a>
               </div>
             </div>
           </div>

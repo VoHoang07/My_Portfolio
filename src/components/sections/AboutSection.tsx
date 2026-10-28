@@ -99,15 +99,26 @@ export const AboutSection = () => {
                 <CheckCircle2 className="h-4 w-4" />
                 <span>{portfolioProfile.availability}</span>
               </div>
-              <a
-                href={portfolioProfile.github}
-                target="_blank"
-                rel="noreferrer"
-                className="inline-flex items-center gap-1.5 text-xs font-mono uppercase tracking-wider text-[#E1E0CC] hover:underline"
-              >
-                github.com/VoHoang07
-                <ArrowUpRight className="h-3.5 w-3.5" />
-              </a>
+              <div className="flex flex-wrap items-center gap-4">
+                <a
+                  href={portfolioProfile.github}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="inline-flex items-center gap-1 text-xs font-mono uppercase tracking-wider text-[#E1E0CC] hover:underline"
+                >
+                  GitHub
+                  <ArrowUpRight className="h-3.5 w-3.5" />
+                </a>
+                <a
+                  href={portfolioProfile.linkedin}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="inline-flex items-center gap-1 text-xs font-mono uppercase tracking-wider text-[#E1E0CC] hover:underline"
+                >
+                  LinkedIn
+                  <ArrowUpRight className="h-3.5 w-3.5" />
+                </a>
+              </div>
             </div>
           </motion.div>
 
