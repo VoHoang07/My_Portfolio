@@ -60,7 +60,7 @@ export const portfolioProfile = {
     { value: "09+", label: "Public Repositories", detail: "Open-source & production builds" },
     { value: "1.8M+", label: "CallKit Prefix Records", detail: "Indexed offline in VNCallBlocker" },
     { value: "03", label: "Engineering Pillars", detail: "iOS Native • Cross-Platform • AI CLI" },
-    { value: "4ch", label: "Automated Video Channels", detail: "End-to-end AI dubbing & scheduling" },
+    { value: "10ch", label: "Automated Video Channels", detail: "24/7 AI dubbing, splitting & scheduling" },
   ],
 };
 
@@ -185,18 +185,18 @@ export const featuredProjects: ProjectItem[] = [
     id: "tiem-cuon-len",
     index: "03",
     title: "Tiem Cuon Len",
-    subtitle: "Cross-Platform Handmade Yarn E-Commerce",
+    subtitle: "Cross-Platform Handmade Crochet E-Commerce & Admin Suite",
     category: "React & Mobile",
     description:
-      "Cross-platform e-commerce storefront and admin management system for a handmade yarn and crochet shop built with React Native, Expo Router, and Supabase.",
+      "Cross-platform e-commerce storefront and admin management system (tiemcuonlen.shop) built with React Native, Expo Router, Vercel Serverless API, Supabase PostgreSQL RLS, and Cloudflare.",
     highlights: [
-      "Unified mobile & web experience powered by React Native and Expo Router",
-      "Supabase PostgreSQL backend secured with Row-Level Security (RLS) policies",
-      "Automated SePay bank transfer QR checkout & webhook payment verification",
+      "Live 2-item Combo Studio, custom gift card preview & 1440×1440 WebP catalog on Vercel CDN",
+      "Server-side order price recalculation, PostgreSQL RLS & automated VietQR + SePay bank webhook checkout",
+      "Real-time customer chat widget, stitched visitor journey analytics & HMAC-SHA256 IP security center",
     ],
-    techStack: ["React Native", "Expo Router", "TypeScript", "Supabase", "PostgreSQL", "Vercel"],
+    techStack: ["React Native", "Expo Router", "TypeScript", "Supabase", "Vercel Serverless", "Cloudflare"],
     githubUrl: "https://github.com/VoHoang07/tiem-cuon-len",
-    liveUrl: "https://tiem-cuon-len.vercel.app",
+    liveUrl: "https://www.tiemcuonlen.shop",
     image:
       "https://images.unsplash.com/photo-1584992236310-6edddc08acff?auto=format&fit=crop&w=1200&q=85",
     year: "2026",
@@ -206,16 +206,16 @@ export const featuredProjects: ProjectItem[] = [
     id: "tool-scan-video-tiktok",
     index: "04",
     title: "tool_scan_video_tiktok",
-    subtitle: "AI Video Localization & Multi-Channel Pipeline",
+    subtitle: "10-Channel Video Pipeline & 24/7 Browser Scheduler",
     category: "Python & AI",
     description:
-      "Automated Python CLI pipeline for downloading, transcribing, translating, AI-dubbing, and scheduling Douyin/TikTok short-form videos across 4 target channels.",
+      "Automated Python pipeline for sourcing, multi-part splitting, localizing, AI-dubbing, verifying, and publishing short-form vertical videos across 10 TikTok channels in a two-machine Mac setup.",
     highlights: [
-      "Speech-to-text transcription via Faster-Whisper with automated Vietnamese translation",
-      "Neural TTS voice synthesis and FFmpeg audio-visual mastering pipeline",
-      "Headless Playwright browser scheduling across 4 distinct social channels",
+      "Multi-part episode splitters, Faster-Whisper ASR, Edge-TTS dubbing & FFmpeg subtitle mastering",
+      "6-layer technical/metadata verification & Community Guidelines pre-post content guard",
+      "Modular Playwright/Chrome publisher (auto_poster + 5 mixins), 4 runtime switches & harness CLI",
     ],
-    techStack: ["Python", "FFmpeg", "Faster-Whisper", "Playwright", "TTS", "CLI"],
+    techStack: ["Python", "FFmpeg", "Faster-Whisper", "Edge-TTS", "Playwright", "CLI"],
     githubUrl: "https://github.com/VoHoang07/tool_scan_video_tiktok",
     image:
       "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=1200&q=85",
@@ -293,7 +293,7 @@ export const experiences: ExperienceItem[] = [
     bullets: [
       "Engineered NET_ver1 with ARKit, RealityKit, and Vision for real-time 3D pose projection and skeletal posture coaching on iOS.",
       "Built VNCallBlocker with Apple CallKit Call Directory Extensions to block 1.8M+ spam and VoIP numbers completely offline.",
-      "Launched Tiem Cuon Len (React Native, Expo Router, Supabase RLS) with automated bank webhook verification and live web/mobile deployment.",
+      "Launched Tiem Cuon Len (tiemcuonlen.shop) with React Native, Expo Router, Vercel Serverless API, Supabase RLS, SePay VietQR webhooks, real-time chat, and visitor security center.",
     ],
     tags: ["Swift 6", "SwiftUI", "ARKit", "React Native", "Expo", "Supabase"],
   },
@@ -305,7 +305,7 @@ export const experiences: ExperienceItem[] = [
     summary:
       "Building TypeScript web applications with Clean Architecture and automating multi-channel media workflows with Python and AI models.",
     bullets: [
-      "Developed tool_scan_video_tiktok, an end-to-end Python CLI pipeline combining Faster-Whisper, FFmpeg, neural TTS, and Playwright across 4 video channels.",
+      "Developed tool_scan_video_tiktok, an automated 10-channel Python video pipeline combining multi-part splitters, Faster-Whisper, Edge-TTS, FFmpeg, 6-layer verification, and modular Playwright scheduling.",
       "Created Movio with React 19, TypeScript, and Zustand following Clean Architecture principles for spaced-repetition learning.",
       "Crafted reusable native UIKit and React component systems focused on smooth motion and maintainability.",
     ],
